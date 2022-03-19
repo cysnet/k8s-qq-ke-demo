@@ -1,0 +1,8 @@
+
+oneapi/obj/Debug/net6.0/oneapi.AssemblyInfoInputs.cache
+
+oneapi/obj/*
+oneapi/bin/*
+
+twoapi/obj/*
+twoapi/bin/*

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oneapi", "oneapi\oneapi.csproj", "{6A7196D5-C5D7-41B3-90EC-3D8189EFE85C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "twoapi", "twoapi\twoapi.csproj", "{2ED0197B-8DCF-4132-A35C-AF59322E59F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B4C24B0-BD2B-4E38-85BB-7898A5FDF025}"
+	ProjectSection(SolutionItems) = preProject
+		cfssl-certinfo_linux-amd64 = cfssl-certinfo_linux-amd64
+		cfssl_linux-amd64 = cfssl_linux-amd64
+		cfssljson_linux-amd64 = cfssljson_linux-amd64
+		metrics.yaml = metrics.yaml
+		nfs-class.yaml = nfs-class.yaml
+		nfs-deployment.yaml = nfs-deployment.yaml
+		nfs-rbac.yaml = nfs-rbac.yaml
+		nginx-ingress.yaml = nginx-ingress.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7196D5-C5D7-41B3-90EC-3D8189EFE85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7196D5-C5D7-41B3-90EC-3D8189EFE85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7196D5-C5D7-41B3-90EC-3D8189EFE85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7196D5-C5D7-41B3-90EC-3D8189EFE85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED0197B-8DCF-4132-A35C-AF59322E59F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED0197B-8DCF-4132-A35C-AF59322E59F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED0197B-8DCF-4132-A35C-AF59322E59F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED0197B-8DCF-4132-A35C-AF59322E59F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C3EF9D-632A-4978-BC4A-CDA805391933}
+	EndGlobalSection
+EndGlobal
